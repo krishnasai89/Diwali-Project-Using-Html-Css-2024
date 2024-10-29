@@ -32,7 +32,7 @@ body{
 .navbar .navbar-left .Logo{
     width: 40px;
     height: 40px;
-    filter: drop-shadow(6px 8px 16px yellow);
+    filter: drop-shadow(8px 6px 4px rgb(225, 196, 6));
 }
 .navbar .navbar-left .title{
     font-size: 1.5rem;
