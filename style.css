@@ -32,7 +32,7 @@ body{
 .navbar .navbar-left .Logo{
     width: 40px;
     height: 40px;
-    filter: drop-shadow(2px 5px 10px rgb(232, 244, 4));
+    filter: drop-shadow(6px 8px 16px yellow);
 }
 .navbar .navbar-left .title{
     font-size: 1.5rem;
@@ -65,7 +65,10 @@ body{
     border-radius: 4px;
 }
 .navbar .navbar-right ul li a.active{
-    color: yellow;
+    /* color: darkcyan; */
+    border: 2px solid darkcyan;
+    border-radius: 2rem;
+    animation: contact 5s infinite;
 }
 .bg{
     position: absolute;
